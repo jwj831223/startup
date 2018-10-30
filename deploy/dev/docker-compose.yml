@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: r.crun.top/hsbs/cpp_web:dev
+    ports:
+      - 33330:8080
+    restart: always
